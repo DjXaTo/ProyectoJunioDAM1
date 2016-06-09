@@ -229,9 +229,7 @@ public class interfaz extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelEmpleadosLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panelEmpleadosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(panelEmpleadosLayout.createSequentialGroup()
-                        .addGap(0, 0, 0)
-                        .addComponent(SPEmpl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(SPEmpl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1))
                 .addContainerGap())
         );
@@ -438,50 +436,50 @@ public class interfaz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel SPEmpl;
-    private javax.swing.JPanel SPProyectos;
+    public javax.swing.JPanel SPEmpl;
+    public javax.swing.JPanel SPProyectos;
     private javax.swing.JMenuBar barraMenu;
-    private javax.swing.JButton btnAsignarEmp;
-    private javax.swing.JButton btnEliminarEmp;
-    private javax.swing.JButton btnEliminarProy;
-    private javax.swing.JButton btnModificarEmp;
-    private javax.swing.JButton btnModificarProy;
-    private javax.swing.JButton btnParticipantesProy;
-    private com.toedter.calendar.JDateChooser dateFinProy;
-    private com.toedter.calendar.JDateChooser dateInicioProy;
-    private javax.swing.JDialog dialogNuevoEmp;
-    private javax.swing.JDialog dialogNuevoProy;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JButton btnAsignarEmp;
+    public javax.swing.JButton btnEliminarEmp;
+    public javax.swing.JButton btnEliminarProy;
+    public javax.swing.JButton btnModificarEmp;
+    public javax.swing.JButton btnModificarProy;
+    public javax.swing.JButton btnParticipantesProy;
+    public com.toedter.calendar.JDateChooser dateFinProy;
+    public com.toedter.calendar.JDateChooser dateInicioProy;
+    public javax.swing.JDialog dialogNuevoEmp;
+    public javax.swing.JDialog dialogNuevoProy;
+    public javax.swing.JLabel jLabel1;
+    public javax.swing.JLabel jLabel10;
+    public javax.swing.JLabel jLabel2;
+    public javax.swing.JLabel jLabel3;
+    public javax.swing.JLabel jLabel4;
+    public javax.swing.JLabel jLabel5;
+    public javax.swing.JLabel jLabel6;
+    public javax.swing.JLabel jLabel7;
+    public javax.swing.JLabel jLabel8;
+    public javax.swing.JLabel jLabel9;
+    public javax.swing.JScrollPane jScrollPane1;
+    public javax.swing.JScrollPane jScrollPane2;
+    public javax.swing.JScrollPane jScrollPane3;
+    public javax.swing.JScrollPane jScrollPane4;
+    public javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JList listaProyectosEmp;
     private javax.swing.JMenu menuArchivo;
-    private javax.swing.JMenu menuSalir;
-    private javax.swing.JMenuItem miNuevoEmp;
-    private javax.swing.JMenuItem miNuevoProy;
-    private javax.swing.JPanel panelEmpleados;
-    private javax.swing.JPanel panelPrincipal;
-    private javax.swing.JPanel panelProyectos;
-    private javax.swing.JTable tablaEmpleados;
+    public javax.swing.JMenu menuSalir;
+    public javax.swing.JMenuItem miNuevoEmp;
+    public javax.swing.JMenuItem miNuevoProy;
+    public javax.swing.JPanel panelEmpleados;
+    public javax.swing.JPanel panelPrincipal;
+    public javax.swing.JPanel panelProyectos;
+    public javax.swing.JTable tablaEmpleados;
     private javax.swing.JTable tablaProyectos;
-    private javax.swing.JTextField txtApellidoEmp;
-    private javax.swing.JFormattedTextField txtCodigoProy;
+    public javax.swing.JTextField txtApellidoEmp;
+    public javax.swing.JFormattedTextField txtCodigoProy;
     private javax.swing.JTextArea txtDescripcionProy;
-    private javax.swing.JFormattedTextField txtNIFEmp;
-    private javax.swing.JFormattedTextField txtNacimientoEmp;
-    private javax.swing.JTextField txtNombreEmp;
-    private javax.swing.JTextField txtTituloProy;
+    public javax.swing.JFormattedTextField txtNIFEmp;
+    public javax.swing.JFormattedTextField txtNacimientoEmp;
+    public javax.swing.JTextField txtNombreEmp;
+    public javax.swing.JTextField txtTituloProy;
     // End of variables declaration//GEN-END:variables
 }
