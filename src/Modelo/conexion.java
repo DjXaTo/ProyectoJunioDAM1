@@ -1,4 +1,4 @@
-package modelo;
+package Modelo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -30,20 +30,4 @@ public class conexion {
     public Connection getConexion() {
         return this.conn;
     }
-    
-//    public void setDatabase(String db){
-//        this.db = db;
-//    }
-//    
-//    public void setUser(String user){
-//        this.user = user;
-//    }
-//    
-//    public void setPassword(String password){
-//        this.password = password;
-//    }
-//    
-//    public void setURL(String ip, String puerto){
-//        this.url = "jdbc:mysql://" + ip + ":" + puerto + "/" + db;
-//    }
 }
